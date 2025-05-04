@@ -1,0 +1,15 @@
+
+.bold {
+    font-weight: bold;
+}
+
+.options {
+    font-size: 14px;
+}
+
+.option-header {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+}

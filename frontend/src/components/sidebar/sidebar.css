@@ -1,0 +1,42 @@
+.filter-container {
+    height: 100%;
+    background-color: white;
+    border-width: 0;
+    border-style: solid;
+
+    .filter-header {
+        display: flex;
+        justify-content: space-between; /* Spaces out items on the left and right */
+        align-items: center; /* Vertically centers them */
+        padding-bottom: 1rem; /* Optional space below the header */
+        padding: 0.5rem 1rem;
+        font-weight: bold;
+      }
+      
+      .clear-all-btn {
+        padding: 0.5rem 1rem;
+        color: rgb(2 132 199 / var(--tw-text-opacity, 1));
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 0.8rem;
+      }
+      
+      h1 {
+        font-size: 1.15rem;
+        margin: 0;
+        font-weight: bold;
+      }
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-all;
+}
